@@ -56,7 +56,7 @@ print("[INFO] starting video stream thread...")
 # vs = FileVideoStream(args["video"]).start()
 # fileStream = True
 vs = VideoStream(src=0).start()
-#vs = VideoStream(usePiCamera=True).start()
+#vs = VideoStream(usePiCamera=True).start() for pi camera
 fileStream = False
 time.sleep(1.0)
 # loop over frames from the video stream
