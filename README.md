@@ -8,4 +8,4 @@
 
 ##### Run file
     bash run_main.sh
-    bash 
+    bash run_land_mark.sh 
